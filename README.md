@@ -1,31 +1,45 @@
-# Next.js with TypeScript example
+# Le Choisisseur
 
-## How to use
+## Comment l'utiliser
 
-Fork this sandbox.
-Codesandbox will automatically pull all dependencies and run the start script.
+Ajoutez les noms dans le champ `Nom(s)` selon le format
+`nom1, nom2, nom3...`
+et soumettez le formulaire.
 
-To excute any commands manually open up a new terminal and type your command.
-Here are some examples.
+Entrez le nombre de noms à choisir et soumettez le formulaire.
 
-Install and run:
+Vous pouvez à tout moment supprimer les noms ajoutés en cliquant sur le bouton `Supprimer`.
+
+## Contributions
+
+Clonez le projet:
+
+```sh
+git clone git@github.com:DaVinciLord/the-chooser.git
+```
+
+Installez les dépéndances:
 
 ```sh
 npm install
-npm run dev
 ```
 
-or
+ou
 
 ```sh
 yarn
+```
+
+Démarrez le serveur de développement:
+
+```sh
+npm run dev
+```
+
+ou
+
+```sh
 yarn dev
 ```
 
-## The idea behind the example
-
-[Next.js](https://github.com/zeit/next.js) is a framework for server-rendered React apps.
-
-[Typescript](https://github.com/microsoft/TypeScript) is a superset of JavaScript that compiles to clean JavaScript output.
-
-[Material-UI](https://github.com/mui-org/material-ui) is a React UI library based on Google's Material Design specification.
+Faites vos modifications, testez et ouvrez une PR !
