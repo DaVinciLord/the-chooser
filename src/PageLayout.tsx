@@ -51,7 +51,7 @@ const PageLayout: React.FunctionComponent = ({ children }) => {
             noWrap
             className={classes.title}
           >
-            PageLayout
+            Le Choisisseur
           </Typography>
         </Toolbar>
       </AppBar>
