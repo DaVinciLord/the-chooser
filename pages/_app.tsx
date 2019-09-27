@@ -18,7 +18,7 @@ export default class MyApp extends App {
     return (
       <React.Fragment>
         <Head>
-          <title>My page</title>
+          <title>Le Choisisseur</title>
         </Head>
         <ThemeProvider theme={theme}>
           <PageLayout>
